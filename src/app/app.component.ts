@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-first-app';
+  contador = 0;
+  sumar() {
+    this.contador++;
+  }
 }
